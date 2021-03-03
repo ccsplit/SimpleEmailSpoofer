@@ -1,0 +1,1 @@
+docker run --rm --name postfix -e "ALLOWED_SENDER_DOMAINS=example.com" -p 9025:587 boky/postfix
